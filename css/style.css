@@ -1,3 +1,7 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
 .container{
 	width: 1170px;
 	margin: 0 auto;
@@ -154,3 +158,71 @@
 .menu > li:hover .submenu li:nth-child(odd){
   transform: skewX(-25deg) translateX(-15px);			
 }
+.fa-facebook-f{
+	font-size: 25px;
+	color: blue;
+	margin-right: 15px;
+}
+.fa-facebook-f:hover{
+	font-size: 40px;
+}
+.fa-google-plus-g{
+	font-size: 25px;
+	color: red;
+	margin-right: 15px;
+}
+.fa-google-plus-g:hover{
+	font-size: 40px;
+}
+.fa-twitter{
+	font-size: 25px;
+	color: aqua;
+	margin-right: 15px;
+}
+.fa-twitter:hover{
+	font-size: 40px;
+}
+.fa-search{
+	font-size: 25px;
+}
+.fa-search:hover{
+	font-size: 40px;
+}
+
+.bg{
+	background-image: url(../img/banner.jpg);
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.bg2{
+	background-image: url(../img/banner2.jpg);
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.videos{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.index2-h1{
+	text-align: center;
+	font-size: 50px;
+	color: blue;
+	font-family: Arial, Helvetica;
+	padding-top: 20px;
+}
+.banner3{
+	background-image: url(../img/banner3.jpg);
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+.map{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+}*/
